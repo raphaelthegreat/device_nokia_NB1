@@ -8,11 +8,8 @@ tunnel.audiovideo.decode=false
 tunnel.decode=false
 
 # Bluetooth
-bt.max.hfpclient.connections=1
-ro.bluetooth.a4wp=false
-ro.bluetooth.emb_wp_mode=true
-ro.bluetooth.library_name=libbluetooth_qti.so
-ro.bluetooth.wipower=true
+persist.bluetooth.a2dp_offload.disabled=false
+ro.bluetooth.a2dp_offload.supported=true
 
 # Dalvik
 dalvik.vm.heapsize=36m
