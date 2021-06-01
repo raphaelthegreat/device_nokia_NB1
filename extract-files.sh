@@ -78,6 +78,9 @@ function blob_fixup() {
         vendor/lib/hw/vulkan.msm8998.so|vendor/lib64/hw/vulkan.msm8998.so)
             "${PATCHELF}" --set-soname "vulkan.msm8998.so" "${2}"
             ;;
+        vendor/lib/libbthost_if.so|vendor/lib64/libbthost_if.so)
+            "${PATCHELF}" --set-soname "libbthost_if.so" "${2}"
+            ;;
     esac
 }
 
