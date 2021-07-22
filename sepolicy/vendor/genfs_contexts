@@ -1,3 +1,6 @@
+# Display
+genfscon sysfs /class/drm/sde-crtc-0/measured_fps   u:object_r:vendor_sysfs_graphics:s0
+
 # /proc/bandinfo - Radio
 genfscon proc /bandinfo            u:object_r:proc_bandinfo:s0
 

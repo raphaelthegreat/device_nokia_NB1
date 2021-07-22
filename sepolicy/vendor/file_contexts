@@ -1,6 +1,9 @@
 # Audio
 /(vendor|system/vendor)/bin/init\.nb1\.smartamp_init\.sh	u:object_r:smartamp_init_exec:s0
 
+# Display
+/sys/class/drm/sde-crtc-0/measured_fps                      u:object_r:vendor_sysfs_graphics:s0
+
 # Firmware
 /bt_firmware(/.*)?                  u:object_r:bt_firmware_file:s0
 /firmware(/.*)?                     u:object_r:firmware_file:s0
