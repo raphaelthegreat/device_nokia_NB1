@@ -36,20 +36,68 @@
         * MaxFrequency, Any limitations for max frequency for that cluster.
     -->
 
+    <!-- For targets sharing the same platfrom, we can have seperate config tag for each
+         of those targets with different number in the Config tag and basing on the socId
+         of the target device, we decide which configs to consider. -->
+
     <Config1>
 
          <TargetInfo
-             Target="msm8998"
+             Target="sdm660"
              NumClusters="2"
              TotalNumCores="8"
-             SocIds="292,319"
+             SocIds="317,324,345,346"
              SynCore="1"
              CoreCtlCpu="4"
              MinCoreOnline="0" />
 
          <ClustersInfo Id="0" NumCores="4" Type="little" />
-         <ClustersInfo Id="1" NumCores="4" Type="big" MaxFrequency="2361600" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
 
     </Config1>
+
+    <Config2>
+
+         <TargetInfo
+             Target="sdm630"
+             NumClusters="2"
+             TotalNumCores="8"
+             SocIds="318,327"
+             SynCore="1"
+             MinCoreOnline="0" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="big" />
+         <ClustersInfo Id="1" NumCores="4" Type="little" />
+
+    </Config2>
+
+    <Config3>
+         <TargetInfo
+             Target="sdm658"
+             NumClusters="2"
+             TotalNumCores="6"
+             SocIds="325,326"
+             SynCore="1"
+             CoreCtlCpu="4"
+             MinCoreOnline="0" />
+
+         <ClustersInfo Id="0" NumCores="2" Type="little" />
+         <ClustersInfo Id="1" NumCores="4" Type="big" />
+
+    </Config3>
+
+    <Config4>
+         <TargetInfo
+             Target="sdm455"
+             NumClusters="2"
+             TotalNumCores="8"
+             SocIds="385"
+             SynCore="1"
+             MinCoreOnline="0" />
+
+         <ClustersInfo Id="0" NumCores="4" Type="big" />
+         <ClustersInfo Id="1" NumCores="4" Type="little" />
+
+    </Config4>
 
 </TargetConfig>
