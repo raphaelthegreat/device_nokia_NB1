@@ -216,6 +216,12 @@ dex_import {
 }
 
 dex_import {
+	name: "audiosphere",
+	owner: "nokia",
+	jars: ["proprietary/framework/audiosphere.jar"],
+}
+
+dex_import {
 	name: "QtiTelephonyServicelibrary",
 	owner: "nokia",
 	jars: ["proprietary/product/framework/QtiTelephonyServicelibrary.jar"],
@@ -326,11 +332,5 @@ android_app_import {
 		enabled: false,
 	},
 	soc_specific: true,
-}
-
-dex_import {
-	name: "audiosphere",
-	owner: "nokia",
-	jars: ["proprietary/framework/audiosphere.jar"],
 }
 
