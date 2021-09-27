@@ -5,9 +5,13 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/ancient_NB1.mk
+    $(LOCAL_DIR)/ancient_NB1.mk \
+    $(LOCAL_DIR)/lineage_NB1.mk
 
 COMMON_LUNCH_CHOICES := \
     ancient_NB1-user \
     ancient_NB1-userdebug \
-    ancient_NB1-eng
+    ancient_NB1-eng \
+    lineage_NB1-user \
+    lineage_NB1-userdebug \
+    lineage_NB1-eng
