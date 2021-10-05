@@ -1,5 +1,7 @@
 # Audio
 /(vendor|system/vendor)/bin/init\.nb1\.smartamp_init\.sh	u:object_r:smartamp_init_exec:s0
+/(vendor|system/vendor)/bin/tinymix                         u:object_r:vendor_tinyalsa_exec:s0
+/(vendor|system/vendor)/bin/tinyplay                        u:object_r:vendor_tinyalsa_exec:s0
 
 # Display
 /sys/class/drm/sde-crtc-0/measured_fps                      u:object_r:vendor_sysfs_graphics:s0
