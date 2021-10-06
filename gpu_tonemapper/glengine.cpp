@@ -338,11 +338,8 @@ void checkGlError(const char *file, int line)
 
       default:
         ALOGE("glError (0x%x) %s:%d\n", error, file, line);
-        return;
     }
-
-    ALOGE("glError (%s) %s:%d\n", pError, file, line);
-    return;
+    ALOGE("glError (0x%x) %s:%d\n", error, file, line);
   }
   return;
 }
@@ -406,10 +403,8 @@ void checkEglError(const char *file, int line)
         break;
       default:
         ALOGE("eglError (0x%x) %s:%d\n", error, file, line);
-        return;
     }
     ALOGE("eglError (%s) %s:%d\n", pError, file, line);
-    return;
   }
   return;
 }
