@@ -271,34 +271,6 @@ dex_import {
 }
 
 dex_import {
-	name: "com.qualcomm.qti.uceservice-V2.0-java",
-	owner: "nokia",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.uceservice-V2.1-java",
-	owner: "nokia",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.uceservice-V2.2-java",
-	owner: "nokia",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.2-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
-	name: "com.qualcomm.qti.uceservice-V2.3-java",
-	owner: "nokia",
-	jars: ["proprietary/system_ext/framework/com.qualcomm.qti.uceservice-V2.3-java.jar"],
-	system_ext_specific: true,
-}
-
-dex_import {
 	name: "com.quicinc.cne.api-V1.0-java",
 	owner: "nokia",
 	jars: ["proprietary/system_ext/framework/com.quicinc.cne.api-V1.0-java.jar"],
