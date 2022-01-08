@@ -1039,7 +1039,6 @@ PRODUCT_PACKAGES += \
     TrustZoneAccessService \
     PowerOffAlarm \
     QtiTelephonyService \
-    datastatusnotification \
     embms \
     imssettings \
     uceShimService \
