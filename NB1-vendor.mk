@@ -1166,7 +1166,17 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/firmware/a540_zap.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_zap.b02 \
     vendor/nokia/NB1/proprietary/vendor/firmware/a540_zap.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_zap.elf \
     vendor/nokia/NB1/proprietary/vendor/firmware/a540_zap.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/a540_zap.mdt \
+    vendor/nokia/NB1/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/nokia/NB1/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/nokia/NB1/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/nokia/NB1/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/nokia/NB1/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/nokia/NB1/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/nokia/NB1/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/nokia/NB1/proprietary/vendor/firmware/cpp_firmware_v1_5_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_1.fw \
+    vendor/nokia/NB1/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/nokia/NB1/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/nokia/NB1/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_8_0.fw \
     vendor/nokia/NB1/proprietary/vendor/firmware/ipa_fws.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b00 \
     vendor/nokia/NB1/proprietary/vendor/firmware/ipa_fws.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b01 \
     vendor/nokia/NB1/proprietary/vendor/firmware/ipa_fws.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/ipa_fws.b02 \
@@ -1181,17 +1191,35 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/hw/gatekeeper.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/gatekeeper.msm8998.so \
     vendor/nokia/NB1/proprietary/vendor/lib/hw/keystore.msm8998.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/keystore.msm8998.so \
     vendor/nokia/NB1/proprietary/vendor/lib/liba2dpoffload.so:$(TARGET_COPY_OUT_VENDOR)/lib/liba2dpoffload.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_ad5816g.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5816g.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_ad5823.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ad5823.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_ak7345.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7345.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libactuator_ak7371.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libactuator_ak7371_color_fih.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_color_fih.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libactuator_ak7371_mono_fih.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_mono_fih.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_ak7371_tele_a1n.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_tele_a1n.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_ak7371_wide_a1n.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_ak7371_wide_a1n.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_bu64244gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64244gwz.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_bu64297.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_bu64297.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libactuator_dw9714.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libactuator_dw9714_front_fih.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9714_front_fih.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_dw9716.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9716.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_dw9761b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9761b.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_dw9763.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_dw9763b.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9763b.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_dw9790a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9790a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_dw9800.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_dw9800.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898122.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_lc898212xd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_lc898212xd_qc2002.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898212xd_qc2002.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_lc898217xc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_lc898217xc.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_pseudo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_pseudo.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libactuator_rohm_bu64243gwz.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_rohm_bu64243gwz.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libactuator_single_ak7371_mono_fih.so:$(TARGET_COPY_OUT_VENDOR)/lib/libactuator_single_ak7371_mono_fih.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libarcsoft_beautyshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libarcsoft_beautyshot_video_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libarcsoft_beautyshot_video_algorithm.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libaudio_log_utils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudio_log_utils.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libaudioalsa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libaudioalsa.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/libchromaflash.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromaflash.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_csidtg_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_common.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_csidtg_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_cpp_preview.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_csidtg_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_csidtg_postproc.so \
@@ -1227,6 +1255,34 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_color_nb1_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_color_nb1_video_4k.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_color_nb1_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_color_nb1_zsl_preview_3a.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_color_nb1_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_color_nb1_zsl_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_4k_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_4k_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_common.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_cpp_hfr_120.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_cpp_hfr_60.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_cpp_hfr_90.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_cpp_liveshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_cpp_preview.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_cpp_snapshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_cpp_video.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_cpp_video_4k.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_default_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_default_video.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_default_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_hfr_120.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_hfr_120_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_hfr_60.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_hfr_60_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_hfr_90.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_hfr_90_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_liveshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_postproc.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_preview.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_snapshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_versions.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_video_4k.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_zsl_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_front_nb1_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_front_nb1_zsl_video_3a.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_mono_nb1_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_nb1_4k_preview_3a.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_mono_nb1_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_nb1_4k_video_3a.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_mono_nb1_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_mono_nb1_common.so \
@@ -1283,6 +1339,26 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_single_mono_nb1_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_single_mono_nb1_video_4k.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_single_mono_nb1_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_single_mono_nb1_zsl_preview_3a.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_imx258_single_mono_nb1_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_imx258_single_mono_nb1_zsl_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_4k_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_4k_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_common.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_hfr_60.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_liveshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_preview.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_snapshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_video.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_cpp_video_4k.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_default_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_default_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_hfr_60.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_hfr_60_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_postproc.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_preview.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_snapshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_video.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_video_4k.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_zsl_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k2l7sa05_a1n_wide_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k2l7sa05_a1n_wide_zsl_video_3a.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_4k_preview_3a.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_4k_video_3a.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_common.so \
@@ -1312,6 +1388,55 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_video_4k.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_zsl_preview_3a.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3l8_front_nb1_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3l8_front_nb1_zsl_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_4k_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_4k_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_common.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_hfr_60.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_liveshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_preview.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_snapshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_video.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_cpp_video_4k.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_default_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_default_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_60.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_hfr_60_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_liveshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_postproc.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_preview.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_snapshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_versions.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_video_4k.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_zsl_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k3m3sm_a1n_tele_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k3m3sm_a1n_tele_zsl_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_4k_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_4k_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_4k_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_4k_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_common.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_common.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_120.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_60.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_hfr_90.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_liveshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_preview.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_snapshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_video.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_cpp_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_cpp_video_4k.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_default_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_default_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_default_video.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_default_video.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_default_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_default_video_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_120.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_120.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_120_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_120_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_60.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_60.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_60_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_60_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_90.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_90.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_hfr_90_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_hfr_90_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_liveshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_liveshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_postproc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_postproc.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_preview.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_preview.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_snapshot.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_snapshot.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_versions.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_versions.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_video_4k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_video_4k.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_zsl_preview_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_zsl_preview_3a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libchromatix_s5k4e8_a1n_front_zsl_video_3a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libchromatix_s5k4e8_a1n_front_zsl_video_3a.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libdepthmapwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libdepthmapwrapper.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libhal_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libhal_dbg.so \
@@ -1323,6 +1448,7 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/libjpegdhw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdhw.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libjpegdmahw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegdmahw.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libjpegehw.so:$(TARGET_COPY_OUT_VENDOR)/lib/libjpegehw.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmm-qcamera.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmm-qcamera.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera2_c2d_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_c2d_module.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera2_cpp_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_cpp_module.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera2_frame_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_frame_algorithm.so \
@@ -1339,14 +1465,15 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera2_stats_algorithm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_algorithm.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera2_stats_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_lib.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera2_stats_modules.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera2_stats_modules.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_atmel_at24c32e_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_atmel_at24c32e_eeprom.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_bokeh.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_bokeh.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_cat24c64_MONO_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cat24c64_MONO_eeprom.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_cat24c64_RGB_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_cat24c64_RGB_eeprom.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_chromaflash_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_chromaflash_lib.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_csidtg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_csidtg.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_dbg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dbg.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_depth_map.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_depth_map.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_dummyalgo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dummyalgo.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_dw9761b_2d_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_dw9761b_2d_eeprom.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_eebinparse.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eebinparse.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_eeprom_util.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eeprom_util.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_eztune_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_eztune_module.so \
@@ -1358,10 +1485,18 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_hvx_grid_sum.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_hvx_grid_sum.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imglib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imglib_faceproc_adspstub.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imx258_at24c64d_front_fih_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_at24c64d_front_fih_eeprom.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imx258_color_fih.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_color_fih.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imx258_front_fih.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_front_fih.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imx258_mono_fih.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx258_mono_fih.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imx298.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx298.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imx318.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx318.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imx362.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx362.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imx362_gt24c64a.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx362_gt24c64a.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imx376.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx376.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_imx378.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_imx378.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_interface.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_interface.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_irs1645.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_irs1645.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_isp_abf48.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_abf48.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_isp_aec_bg_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_aec_bg_stats47.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_bf_stats47.so \
@@ -1406,24 +1541,69 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_isp_sce40.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sce40.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_isp_snr47.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_snr47.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_isp_sub_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_isp_sub_module.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_llvd.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_llvd.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_le2464c_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_le2464c_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_le2464c_master_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_le2464c_master_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_m24c64s_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_m24c64s_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ofilm_ohs0443_ov12a10_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ofilm_ohs0443_ov12a10_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ofilm_ohs0443_ov13880_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ofilm_ohs0443_ov13880_eeprom.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ohp0497_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ohp0497_eeprom.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_optizoom_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_optizoom_lib.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_onsemi_cat24c16_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c16_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c32_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_onsemi_cat24c32_imx362_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov12a10.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov12a10.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov13850.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov13850_q13v06k.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13850_q13v06k.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov13855.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13855.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov13880.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov13880.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov2281.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2281.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov2680.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2680.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov2685_scv3b4035.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov2685_scv3b4035.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov4188.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov4188.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov5645.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5645.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov5670.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5670.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov5695.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov5695.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov8856.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8856.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov8856_2lane.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8856_2lane.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov8856_4lane.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8856_4lane.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov8858.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8858.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ov8865.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ov8865.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_paaf_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_paaf_lib.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_pdaf.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdaf.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_pdafcamif.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_pdafcamif.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ppbase_module.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppbase_module.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_ppeiscore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_ppeiscore.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_qtech_f3l8yam_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_qtech_f3l8yam_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_qtech_f5670bq_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_qtech_f5670bq_eeprom.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_quadracfa.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_quadracfa.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_rohm_brcg064gwz_3_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_s5k2l7.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2l7.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_s5k2l7sx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k2l7sx.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_s5k3l8.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_s5k3l8_mono.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8_mono.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_s5k3l8_nb1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3l8_nb1.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_stillmore_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_stillmore_lib.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_s5k3m2xm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m2xm.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_s5k3m2xx.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m2xx.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_s5k3m3sm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3m3sm.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_s5k3p3sm.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p3sm.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_s5k3p8sp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_s5k3p8sp.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sony_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx298_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sony_imx378_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sony_imx378_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sonyimx135_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sonyimx135_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sunny_8865_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_8865_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_imx298_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_s5k2l7_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sunny_gt24c64_s5k2l7sx_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64_s5k2l7sx_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64a_imx362_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sunny_gt24c64a_imx376_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_gt24c64a_imx376_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sunny_ov13855_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_ov13855_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sunny_q13v06k_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q13v06k_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sunny_q5v41b_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sunny_q5v41b_eeprom.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_sw2d_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_sw2d_lib.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_thread_services.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_thread_services.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_tintless_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_algo.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_tintless_bg_pca_algo.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tintless_bg_pca_algo.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_trueportrait_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_trueportrait_lib.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_truly_cma481_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_cma481_eeprom.so \
+    vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_truly_cmb433_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_truly_cmb433_eeprom.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_tuning.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmcamera_tuning_lookup.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libmmjpeg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libmmjpeg.so \
@@ -1435,18 +1615,15 @@ PRODUCT_COPY_FILES += \
     vendor/nokia/NB1/proprietary/vendor/lib/libois_bu24218.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu24218.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libois_bu63165.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_bu63165.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libois_lc898122.so:$(TARGET_COPY_OUT_VENDOR)/lib/libois_lc898122.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/liboptizoom.so:$(TARGET_COPY_OUT_VENDOR)/lib/liboptizoom.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libqomx_core.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_core.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libqomx_jpegdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegdec.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libqomx_jpegenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libqomx_jpegenc_pipe.so:$(TARGET_COPY_OUT_VENDOR)/lib/libqomx_jpegenc_pipe.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libremosaic_daemon.so:$(TARGET_COPY_OUT_VENDOR)/lib/libremosaic_daemon.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/libseemore.so:$(TARGET_COPY_OUT_VENDOR)/lib/libseemore.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libsensor1.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor1.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libsensor_reg.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsensor_reg.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libsndmonitor.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsndmonitor.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libsns_low_lat_stream_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libsns_low_lat_stream_stub.so \
-    vendor/nokia/NB1/proprietary/vendor/lib/libubifocus.so:$(TARGET_COPY_OUT_VENDOR)/lib/libubifocus.so \
     vendor/nokia/NB1/proprietary/vendor/lib/libvideoutils.so:$(TARGET_COPY_OUT_VENDOR)/lib/libvideoutils.so \
     vendor/nokia/NB1/proprietary/vendor/lib/sensor_calibrate.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensor_calibrate.so \
     vendor/nokia/NB1/proprietary/vendor/lib/sensors.ssc.so:$(TARGET_COPY_OUT_VENDOR)/lib/sensors.ssc.so \
