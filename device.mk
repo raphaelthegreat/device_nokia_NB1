@@ -496,6 +496,9 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/google/pixel \
     hardware/google/interfaces
+    
+QCOM_SOONG_NAMESPACE := \
+    $(LOCAL_PATH)/qcom-caf
 
 # Updates
 PRODUCT_PACKAGES += \
