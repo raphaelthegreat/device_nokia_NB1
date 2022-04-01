@@ -37,6 +37,8 @@ LOCAL_C_INCLUDES := \
     external/expat/lib \
     $(call include-path-for, audio-route) \
     vendor/qcom/opensource/audio-hal/primary-hal/hal \
+    $(call project-path-for,qcom-audio)/hal \
+    $(call project-path-for,qcom-audio)/hal/msm8974 \
     $(call include-path-for, audio-effects)
 
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
@@ -233,6 +235,8 @@ LOCAL_C_INCLUDES := \
     $(call include-path-for, audio-route) \
     $(PRIMARY_HAL_PATH) \
     $(PRIMARY_HAL_PATH)/$(AUDIO_PLATFORM) \
+    $(call project-path-for,qcom-audio)/hal \
+    $(call project-path-for,qcom-audio)/hal/msm8974 \
     $(call include-path-for, audio-effects)
 
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
@@ -415,6 +419,8 @@ LOCAL_C_INCLUDES := \
     external/expat/lib \
     system/media/audio_utils/include \
     $(call include-path-for, audio-route) \
+    $(call project-path-for,qcom-audio)/hal \
+    $(call project-path-for,qcom-audio)/hal/msm8974 \
 
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include/audio
@@ -547,6 +553,8 @@ LOCAL_C_INCLUDES := \
     external/expat/lib \
     system/media/audio_utils/include \
     $(call include-path-for, audio-route) \
+    $(call project-path-for,qcom-audio)/hal \
+    $(call project-path-for,qcom-audio)/hal/msm8974 \
 
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include
 LOCAL_C_INCLUDES += $(TARGET_OUT_INTERMEDIATES)/KERNEL_OBJ/usr/include/audio

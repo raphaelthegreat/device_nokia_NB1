@@ -202,6 +202,8 @@ LOCAL_C_INCLUDES := \
         external/tinyalsa/include \
         $(call include-path-for, audio-effects) \
         $(call include-path-for, audio-route) \
+        $(call project-path-for,qcom-audio)/hal \
+    	$(call project-path-for,qcom-audio)/hal/msm8974 \
         vendor/qcom/opensource/audio-hal/primary-hal/hal/audio_extn \
         external/tinycompress/include \
         system/media/audio_utils/include
