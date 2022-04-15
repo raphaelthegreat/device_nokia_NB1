@@ -43,6 +43,11 @@ ro.vendor.qti.va_aosp.support=1
 # OEM Unlock
 ro.oem_unlock_supported=1
 
+# IORap
+ro.iorapd.enable=true
+iorapd.perfetto.enable=true
+iorapd.readahead.enable=true
+
 # Radio
 DEVICE_PROVISIONED=1
 config.disable_networktime=false
