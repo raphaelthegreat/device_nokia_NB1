@@ -1,2 +1,8 @@
+# App
+persist.device_config.runtime_native_boot.iorap_perfetto_enable=true
+
 # IORap
+persist.device_config.runtime_native_boot.iorap_readahead_enable=true
+
+# Perfetto
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
