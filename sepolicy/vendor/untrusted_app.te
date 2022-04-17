@@ -1,1 +1,5 @@
+get_prop(untrusted_app, vendor_persist_camera_prop)
+
+allow untrusted_app zygote:unix_stream_socket { getopt };
+
 allow untrusted_app sysfs_kgsl:dir search;
